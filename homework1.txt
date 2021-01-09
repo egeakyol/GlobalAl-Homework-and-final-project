@@ -1,0 +1,68 @@
+#Question1:
+machine learning is a part of artificial intelligence.
+These systems learns with given data and than it can make some decision
+for example classification or regression etc.
+
+
+#Question2:
+supervised learning is a process which learn with training dataset on the other hand 
+unsupervised learning is build with distribution or hidden structure there is
+no label in that technique.
+
+3 algorithms of supervised;
+-Regression
+-Decision Tree
+-Xgboost
+
+3 algorithms of unsupervised;
+-Principal Component Analysis
+-K-means for clustering 
+-Apriori algorithm
+
+#Question3:
+we create our models and tuning hyperparameters with train set after than we check out our accuracy and strategies on the
+test size. Finally the “validation dataset” uses to describe the evaluation of models.
+We should not shown validation dataset while building models and our strategies.
+
+
+
+#Question4:
+firstly we need to prepare the data for build and implement models. We have to 
+check some steps because the these steps can be lifesaving for our projects.
+lets we explain these steps;
+1-)Duplicate Values:
+for some datasets or situations duplicate values effects bias of models. In most
+time we removed that samples.
+2-)Missing value
+There are many handling strategies about that and we can not say any directly comments.
+These handling methods depends on our data and our models.
+The most useful methods are:
+-eleminate missing values
+-filling with mean or meadin
+3-)outlier detection:
+This is a interesting story. We analyize data and our path for handling outlier 
+detection. We are usually removed outlier samples but rarely outliers can be
+so useful our model and it makes fascinating accuracy score for example Fraud detection dataset!
+finally some models are so sensitive to outliears. Regression and kNN etc.
+4-) Feature scaling:
+there are two types in that part which are Standardization and Normalization.
+we have to normalization for using some models for example Logistic regression
+5-)Bucketing:
+ Data binning, bucketing is a data pre-processing method used to minimize the effects of small observation errors (noisy data).
+6-)Feature encoding 
+we have to transform from string variables to integer value.
+7-)Spilt the data (Train/Validaiton/test)
+this step also so important our models and accuracy scores.
+Mostly we split like %70 train and %30 test.
+as a summary we can increase these steps and we can implement many different aprroachs
+
+
+#Question 5:
+Discrete variables are countable i a finite amount of time.for example age, savings etc..
+continuous variables can take forever to count for example time, volume etc...
+
+
+#Question 6:
+we say that the plot type is countinuos because we use the meter measurement(cm) also 
+there is a Bimodal/Multimodal Distribution on the graph.
+we observe that min and max petal witdh(0-2.5 cm nearly) and their counts.
